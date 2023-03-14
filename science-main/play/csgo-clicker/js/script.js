@@ -6,7 +6,7 @@ var fps = 15;
 
 var money = 7.50;
 var currentCase = "case2";
-var acceptMoneyPerClick = 39999;
+var acceptMoneyPerClick = 0.10;
 
 
 
@@ -174,7 +174,7 @@ var cases = {
       },
       weap3: {
         name: "SG 553 | Ultraviolet",
-        price: 1000000000,
+        price: 0.75,
         img: "https://steamcommunity-a.akamaihd.net/economy/image/-9a81dlWLwJ2UUGcVs_nsVtzdOEdtWwKGZZLQHTxDZ7I56KU0Zwwo4NUX4oFJZEHLbXH5ApeO4YmlhxYQknCRvCo04DEVlxkKgpopb3wflFfwPz3YShQ_NCzq4yCkP_gDLfQhGxUppEl3rGSptmjigfn_0dqZTigdoDAdQ4_YV3XrlnoyOi-gpXv7p7OzyR9-n51Wu8Hu6Y"
       }
     },
