@@ -1,155 +1,65 @@
 <!DOCTYPE html>
 <html>
+    
 <head>
-  <title>Google Drive</title>
+    <title>Google Drive</title>
   <link rel="shortcut icon" href="favicon.ico">
-  <style>
-     body {
-        background-color: #000000;
-     }
-    /* Add your CSS styles here */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: rgb(0, 52, 110);
-      height: 50px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0 20px;
-    }
-    header h1 {
-      margin: 0;
-      color: rgb(255, 255, 255);
-    }
-    nav ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-  h2, p {
-    color: rgb(255, 255, 255);
-  }
-    nav li {
-      margin: 0 10px;
-    }
-    nav a {
-      text-decoration: none;
-      color: rgb(255, 255, 255);
-      font-size: 18px;
-    }
-    main {
-      padding: 20px;
-    }
- 
-
-  .ad-banner {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    width: 300px;
-    height: 250px;
-    border: 0px solid #ddd;
-    text-align: center;
-    transform: translateY(-50%); 
-    right: 1%;
-
-  }
-  
-  .ad-banner img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  .ad-banner .ad-header {
-    background-color: #ffffff;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .ad-banner .ad-header h3 {
-    margin: 0;
-  }
-  
-  .ad-banner .ad-header .close-button {
-    font-size: 20px;
-    cursor: pointer;
-  }
-
-  .close-button-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.ad-closed {
-  position: absolute;
-  right: 0;
-  top: 50%;
-  width: 300px;
-  height: 250px;
-  border: 0px solid #ddd;
-  text-align: center;
-  transform: translateY(-50%);
-  color: white;
-  font-size: 20px;
-  right: 1%
-}
-</style>
-
-
-
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="ad.css">
+    
 </head>
 <body>
-  <header>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="Movies.html">Movies</a></li>
-        <li><a href="Games.html">Games</a></li>
-        <li><a href="https://simple-chat.007drmax007.repl.co/">Chat Room</a></li>
-        <li><a href="proxy.html">Proxy</a></li>
-        <li><a href="emulator.html">Emulator</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-  <main>
-    <section id="home">
-      <h2>Welcome to this website that I made using chat gpt cuz im lazy</h2>
-      <p>Here you will find everything you need to have fun and relax!</p>
-    </section>
-    <section id="movies">
-      <h2>Our Movie Collection</h2>
-      <p>We have a wide variety of movies that you can choose from, including action, drama, comedy, and more! </p>
-      <p>Email: jaeff101045@gmail.com for movie requests and if a movie you want to watch isnt working. </p>
-    </section>
-    <section id="games">
-      <h2>Our Game Library</h2> 
-      <p>We have a variety of games that you can play, including action, adventure, puzzle, and more!</p>
-      <div class="ad-container">
-        <div class="ad-banner">
-          <div class="ad-header">
-            <div class="close-button-container">
-              <div class="close-button" onclick="document.querySelector('.ad-banner').innerHTML = '<div class=\'ad-closed\'>Ad Closed</div>';">
-                &times;
+    <header>
+        <h1>Home</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="games.html">Games</a></li>
+                <li><a href="https://simple-chat.007drmax007.repl.co/">Chat Room</a></li>
+                <li><a href="proxy.html">Proxy</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to this website that I made, and tottaly didnt use chat gpt for help...</h2>
+            <p>Here you will find everything you need to have fun and relax!</p>
+          </section>
+          <section id="movies">
+            <h2>Our Movie Collection</h2>
+            <p>We have a wide variety of movies that you can choose from, including action, drama, comedy, and more! </p>
+            <p>Email: jaeff101045@gmail.com for movie requests and if a movie you want to watch isnt working. </p>
+          </section>
+          <section id="games">
+            <h2>Our Game Library</h2> 
+            <p>We have a variety of games that you can play, including action, adventure, puzzle, and more!</p>
+            <div class="ad-container">
+                <div class="ad-banner">
+                  <div class="ad-header">
+                    <div class="close-button-container">
+                      <div class="close-button" onclick="document.querySelector('.ad-banner').innerHTML = '<div class=\'ad-closed\'>Ad Closed</div>';">
+                        &times;
+                      </div>
+                      <a href="https://bigsteppa.com/">
+                        <img src="Big Steppa Store.png" alt="Big Steppa Store">
+                      </a>
+                </div>
               </div>
-              <a href="https://bigsteppa.com/">
-                <img src="Big Steppa Store.png" alt="Big Steppa Store">
-              </a>
-        </div>
-      </div>
-      
-      
-     
-    </section>
-  </main>
-</body>
-</html>
+              <div class="ad-container">
+                <div class="ad-banner">
+                  <div class="ad-header">
+                    <div class="close-button-container">
+                      <div class="close-button" onclick="document.querySelector('.ad-banner').innerHTML = '<div class=\'ad-closed\'>Ad Closed</div>';">
+                        &times;
+                      </div>
+                      <a href="https://bigsteppa.com/">
+                        <img src="Big Steppa Store.png" alt="Big Steppa Store">
+                      </a>
+                </div>
+              </div>
+</main>
+
+
